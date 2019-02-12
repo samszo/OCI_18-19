@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+ <head>
+  <title>Lucky Semiosis</title>
+  <type>Public</type>
+  <creationDate>2019-02-12 09:30:32</creationDate>
+ </head>
+ <body>
+  <outline title="Culture" cols="3" layout="3-0">
+   <outline title="Normandie actu – actu.fr" xmlUrl="https://actu.fr/feed?marque=normandie-actu" htmlUrl="https://actu.fr/" type="rss" row="1500" col="1"/>
+   <outline title="Awwwards - Sites of the day" xmlUrl="http://feeds.feedburner.com/awwwards-sites-of-the-day" htmlUrl="https://www.awwwards.com/" type="rss" row="3000" col="1"/>
+   <outline title="Ouest-France - Actualité" xmlUrl="http://www.ouest-france.fr/rss-en-continu.xml?region=normandie" htmlUrl="https://www.ouest-france.fr/" type="rss" row="4000" col="1"/>
+   <outline title="InaGlobal : Télévision" xmlUrl="http://www.inaglobal.fr/feed/1" htmlUrl="https://www.inaglobal.fr/" type="rss" row="5000" col="1"/>
+   <outline title="Lesinrocks.com" xmlUrl="http://www.lesinrocks.com/xml/rss/lesinrocks.xml" htmlUrl="http://www.lesinrocks.com/" type="rss" row="1000" col="2"/>
+   <outline title="InaGlobal : Musique" xmlUrl="http://www.inaglobal.fr/feed/4" htmlUrl="https://www.inaglobal.fr/" type="rss" row="2000" col="2"/>
+   <outline title="InaGlobal : Édition" xmlUrl="http://www.inaglobal.fr/feed/5" htmlUrl="https://www.inaglobal.fr/" type="rss" row="1000" col="3"/>
+   <outline title="Les news arts de fluctuat.net" xmlUrl="http://arts.fluctuat.net/blog/arts.xml" htmlUrl="http://arts.fluctuat.net/blog/" type="rss" row="2000" col="3"/>
+   <outline title="Lesinrocksparis.com : ARTS SCENES" xmlUrl="http://www.lesinrocks.com/xml/rss/lesinrocksparis_arts.xml" htmlUrl="" type="rss" row="3000" col="3"/>
+  </outline>
+  <outline title="tice" cols="3" layout="3-0">
+   <outline title="Éduscol : Actualités du numérique" xmlUrl="http://eduscol.education.fr/rid1121/actualites-du-numerique.rss" htmlUrl="http://eduscol.education.fr/" type="rss" row="2000" col="1"/>
+   <outline title="Fil: Dossiers et Textes" xmlUrl="http://eduscol.education.fr/numerique/dossiers-et-textes/RSS" htmlUrl="http://eduscol.education.fr/numerique/dossiers-et-textes" type="rss" row="3000" col="1"/>
+   <outline title="Fil RSS" xmlUrl="http://eduscol.education.fr/numerique/ticedu-thematique/fil/RSS" htmlUrl="http://eduscol.education.fr/numerique/edunum-thematique/fil" type="rss" row="1000" col="2"/>
+   <outline title="Veille éducation numérique" xmlUrl="http://eduscol.education.fr/numerique/actualites/veille-education-numerique/fil/RSS" htmlUrl="http://eduscol.education.fr/numerique/tout-le-numerique/veille-education-numerique" type="rss" row="2000" col="2"/>
+   <outline title="Dernières Lettres TIC'Édu" xmlUrl="http://eduscol.education.fr/numerique/disciplines/ticedu/fil/RSS" htmlUrl="http://eduscol.education.fr/numerique/disciplines/edunum/disciplines" type="rss" row="3000" col="2"/>
+   <outline title="Fil: toutes publications" xmlUrl="http://eduscol.education.fr/numerique/publications-disciplines/RSS" htmlUrl="http://eduscol.education.fr" type="rss" row="1000" col="3"/>
+   <outline title="Éduscol : Toute l'actualité du site" xmlUrl="http://eduscol.education.fr/rid271/toute-l-actualite-du-site.rss" htmlUrl="http://eduscol.education.fr/" type="rss" row="2000" col="3"/>
+   <outline title="Fil: Actualités" xmlUrl="http://eduscol.education.fr/numerique/disciplines/actualites/RSS" htmlUrl="http://eduscol.education.fr/numerique/disciplines/actualites" type="rss" row="3000" col="3"/>
+  </outline>
+  <outline title="Scie anse" cols="3" layout="3-0">
+   <outline title="Automates Intelligents : Actualités" xmlUrl="http://www.ponyfish.com/feeds/24841WZyIYfXd" htmlUrl="http://www.automatesintelligents.com/actu/index.html" type="rss" row="1000" col="1"/>
+   <outline title="Societe Francophone de Memetique" xmlUrl="http://feeds.feedburner.com/SocieteFrancophoneDeMemetique" htmlUrl="https://www.memetique.org/" type="rss" row="2000" col="1"/>
+   <outline title="AI3:::Adaptive Information" xmlUrl="http://www.mkbergman.com/?feed=rss2" htmlUrl="http://www.mkbergman.com/" type="rss" row="1000" col="2"/>
+   <outline title="Techno-Science.net" xmlUrl="http://www.techno-science.net/include/news.xml" htmlUrl="https://www.techno-science.net/" type="rss" row="2000" col="2"/>
+   <outline title="HumaNews - liens publiés" xmlUrl="http://www.humains-associes.org/humanews/rss2.php" htmlUrl="" type="rss" row="1000" col="3"/>
+   <outline title="Canal Académie" xmlUrl="http://www.canalacademie.com/backend.php3?id_rubrique=1" htmlUrl="https://www.canalacademie.com/" type="rss" row="2000" col="3"/>
+  </outline>
+  <outline title="digital humanities" cols="3" layout="3-0">
+   <outline title="ICArchives :: ICA actualités" xmlUrl="http://www.ica.org/rss.php?id=60" htmlUrl="http://www.ica.org/" type="rss" row="2000" col="1"/>
+   <outline title="Espacestemps.net » Rubriques » Bibliothèque" xmlUrl="http://www.espacestemps.net/rubriques/bibliotheques/feed/" htmlUrl="https://www.espacestemps.net/" type="rss" row="3000" col="1"/>
+   <outline title="Design &amp; Digital Humanities (2DH)" xmlUrl="http://2dh.hypotheses.org/feed" htmlUrl="https://2dh.hypotheses.org/" type="rss" row="1000" col="2"/>
+   <outline title="DARIAH EU News" xmlUrl="http://dariah.eu/?type=1364282235" htmlUrl="https://www.dariah.eu/" type="rss" row="2000" col="2"/>
+   <outline title="Frederic Kaplan" xmlUrl="http://fkaplan.wordpress.com/feed/" htmlUrl="https://fkaplan.wordpress.com/" type="rss" row="1000" col="3"/>
+   <outline title="HASTAC - Most Recent Posts" xmlUrl="http://hastac.org/content/feed" htmlUrl="https://www.hastac.org/rss.xml" type="rss" row="2000" col="3"/>
+  </outline>
+  <outline title="Non-catégorisé" cols="3" layout="3-0">
+   <outline title="Le Pays d'Auge - actu.fr - Toute l'information locale." xmlUrl="https://actu.fr/le-pays-d-auge/rss.xml" htmlUrl="https://actu.fr/le-pays-d-auge/" type="rss" row="750" col="1"/>
+   <outline title="Le Monde diplomatique" xmlUrl="https://www.monde-diplomatique.fr/rss" htmlUrl="https://www.monde-diplomatique.fr/" type="rss" row="1500" col="1"/>
+   <outline title="Automates Intelligents : Editorial" xmlUrl="http://www.ponyfish.com/feeds/13897dfXHdEJE" htmlUrl="http://www.automatesintelligents.com/edito/index.html" type="rss" row="3000" col="1"/>
+   <outline title="Cairn.info - Encyclopédies de poche de  Sc. de l’information" xmlUrl="http://www.cairn.info/rss/rss_encyclo-sciences-de-l-information.xml" htmlUrl="http://www.cairn.info/" type="rss" row="4000" col="1"/>
+   <outline title="Cairn.info - Ouvrages collectifs de Psychologie" xmlUrl="http://www.cairn.info/rss/rss_ouvrages-psychologie.xml" htmlUrl="http://www.cairn.info/" type="rss" row="5000" col="1"/>
+   <outline title="e-reputation and more | Scoop.it" xmlUrl="http://www.scoop.it/t/e-reputation-and-more/rss.xml" htmlUrl="http://www.scoop.it/t/e-reputation-and-more" type="rss" row="7000" col="1"/>
+   <outline title="Intelligence Collective" xmlUrl="http://intelligencecollective.blogspirit.com/index.rss" htmlUrl="http://intelligencecollective.blogspirit.com/" type="rss" row="8000" col="1"/>
+   <outline title="La Recherche - Actualité Mathématiques" xmlUrl="http://www.larecherche.fr/content/rss-mathematiques/listweb" htmlUrl="http://www.larecherche.fr" type="rss" row="9000" col="1"/>
+   <outline title="ODH Update" xmlUrl="http://www.neh.gov/ODH/ODHUpdate/tabid/108/rssid/13/Default.aspx" htmlUrl="" type="rss" row="10000" col="1"/>
+   <outline title="Scientometrics (Online First™)" xmlUrl="http://www.springerlink.com/content/0138-9130/preprint/?export=rss" htmlUrl="http://www.springerlink.com/content/0138-9130/preprint/?export=rss" type="rss" row="11000" col="1"/>
+   <outline title="Sticef" xmlUrl="http://sticef.univ-lemans.fr/rss/feed.xml" htmlUrl="http://www.sticef.org/" type="rss" row="12000" col="1"/>
+   <outline title="W3C Semantic Web Activity News" xmlUrl="http://www.w3.org/blog/SW?tempskin=_atom" htmlUrl="https://www.w3.org/blog/SW" type="rss" row="13000" col="1"/>
+   <outline title="Archidemo - Architecture in Metaverse" xmlUrl="http://archidemo.blogspot.com/feeds/posts/default" htmlUrl="http://archidemo.blogspot.com/" type="rss" row="1000" col="2"/>
+   <outline title="Automates Intelligents : Articles" xmlUrl="http://www.ponyfish.com/feeds/13898WsSWjsVx" htmlUrl="http://www.automatesintelligents.com/echanges/index.html" type="rss" row="2000" col="2"/>
+   <outline title="Automates Intelligents : Manifestations" xmlUrl="http://www.ponyfish.com/feeds/13902wAIhCRhm" htmlUrl="" type="rss" row="3000" col="2"/>
+   <outline title="Cairn.info - Ouvrages collectifs de Géographie" xmlUrl="http://www.cairn.info/rss/rss_ouvrages-geographie.xml" htmlUrl="http://www.cairn.info/" type="rss" row="4000" col="2"/>
+   <outline title="Cairn.info - Ouvrages collectifs de Sc. de l’information" xmlUrl="http://www.cairn.info/rss/rss_ouvrages-sciences-de-l-information.xml" htmlUrl="http://www.cairn.info/" type="rss" row="5000" col="2"/>
+   <outline title="Caitlin's Blog" xmlUrl="http://caitlinkealey.com/feed/" htmlUrl="" type="rss" row="6000" col="2"/>
+   <outline title="Enquête de sens" xmlUrl="http://feeds.feedburner.com/EnqueteDeSens" htmlUrl="http://blog.onomia.com/" type="rss" row="7000" col="2"/>
+   <outline title="InternetActu.net" xmlUrl="http://feeds.feedburner.com/internetactu/bcmJ" htmlUrl="http://www.internetactu.net/" type="rss" row="8000" col="2"/>
+   <outline title="L'Ecologie de l'Information, le blog de Pierre Gandonnière" xmlUrl="http://www.gandonniere.com/rss-articles.xml" htmlUrl="http://www.gandonniere.com/" type="rss" row="9000" col="2"/>
+   <outline title="Owni.fr" xmlUrl="http://feeds.feedburner.com/Owni?format=xml" htmlUrl="http://owni.fr/" type="rss" row="10000" col="2"/>
+   <outline title="Statistical Modeling, Causal Inference, and Social Science" xmlUrl="http://feeds.feedburner.com/StatisticalModeling" htmlUrl="https://statmodeling.stat.columbia.edu/" type="rss" row="11000" col="2"/>
+   <outline title="Temporalités" xmlUrl="http://temporalites.revues.org/backend.html?format=rssnumeros" htmlUrl="http://journals.openedition.org/temporalites" type="rss" row="12000" col="2"/>
+   <outline title="Web of Things" xmlUrl="http://feeds.feedburner.com/WebOfThings" htmlUrl="https://webofthings.org/" type="rss" row="13000" col="2"/>
+   <outline title="Automates Intelligents  Arts Imaginaires" xmlUrl="http://www.ponyfish.com/feeds/13903BPqIYKPh" htmlUrl="http://www.automatesintelligents.com/art/index.html" type="rss" row="1000" col="3"/>
+   <outline title="Automates Intelligents : CD&amp;#x2F;DVD-ROM" xmlUrl="http://www.ponyfish.com/feeds/13904IDnOYFRJ" htmlUrl="" type="rss" row="2000" col="3"/>
+   <outline title="Automates Intelligents : Recension de livres" xmlUrl="http://www.ponyfish.com/feeds/13901OMItihVa" htmlUrl="http://www.automatesintelligents.com/biblionet/index.html" type="rss" row="3000" col="3"/>
+   <outline title="Cairn.info - Ouvrages collectifs de Philosophie" xmlUrl="http://www.cairn.info/rss/rss_ouvrages-philosophie.xml" htmlUrl="http://www.cairn.info/" type="rss" row="4000" col="3"/>
+   <outline title="Cairn.info - Ouvrages collectifs de Sciences de l’éducation" xmlUrl="http://www.cairn.info/rss/rss_ouvrages-sciences-de-l-education.xml" htmlUrl="http://www.cairn.info/" type="rss" row="5000" col="3"/>
+   <outline title="Delicious&amp;#x2F;luckysemiosis&amp;#x2F;dhyp" xmlUrl="http://feeds.delicious.com/v2/rss/luckysemiosis/dhyp?count=15" htmlUrl="" type="rss" row="6000" col="3"/>
+   <outline title="finally." xmlUrl="http://finally-studio.com/?feed=rss2" htmlUrl="https://finally-studio.com/" type="rss" row="7000" col="3"/>
+   <outline title="Jean-François Noubel's blog" xmlUrl="http://feeds.feedburner.com/noubel" htmlUrl="http://noubel.com/" type="rss" row="8000" col="3"/>
+   <outline title="Live feed - Aaaliens" xmlUrl="http://www.aaaliens.com/rss/1" htmlUrl="http://www.aaaliens.com/1" type="rss" row="9000" col="3"/>
+   <outline title="Recherche en histoire visuelle" xmlUrl="http://www.arhv.lhivic.org/rss.php" htmlUrl="http://www.arhv.lhivic.org/index.php/" type="rss" row="10000" col="3"/>
+   <outline title="Statosphere, les statistiques du web" xmlUrl="http://feeds.feedburner.com/statosphere-fr" htmlUrl="http://statosphere.fr/" type="rss" row="11000" col="3"/>
+   <outline title="The Politics of Systems" xmlUrl="http://thepoliticsofsystems.net/feed/" htmlUrl="http://thepoliticsofsystems.net/" type="rss" row="12000" col="3"/>
+   <outline title="Web Science News" xmlUrl="http://webscience.org/news.rss" htmlUrl="http://webscience.org/news" type="rss" row="13000" col="3"/>
+  </outline>
+  <outline title="ingénierie des connaissances" cols="3" layout="3-0">
+   <outline title="IEEE Education Society" xmlUrl="http://ieee-edusociety.org/rss.xml" htmlUrl="http://ieee-edusociety.org/" type="rss" row="500" col="1"/>
+   <outline title="OpenEdition Lab » Flux" xmlUrl="http://false.com" htmlUrl="" type="rss" row="1000" col="1"/>
+   <outline title="Leçons de Choses" xmlUrl="http://mondeca.wordpress.com/feed/" htmlUrl="https://mondeca.wordpress.com/" type="rss" row="2000" col="1"/>
+   <outline title="Education 2.0 - Learning 2.0 Blog" xmlUrl="http://florencemeichel.blogspot.com/feeds/posts/default" htmlUrl="http://florencemeichel.blogspot.com/" type="rss" row="3000" col="1"/>
+   <outline title="SemanticUniverse.com" xmlUrl="http://www.semanticuniverse.com/feeds/semantic-universe-rss.xml" htmlUrl="http://www.semanticuniverse.com/feeds/semantic-universe-rss.xml" type="rss" row="4000" col="1"/>
+   <outline title="IEEE Brain » Feed" xmlUrl="http://brain.ieee.org/feed/" htmlUrl="http://brain.ieee.org/" type="rss" row="500" col="2"/>
+   <outline title="Apprendre 2.0's feed | Diigo Group" xmlUrl="http://groups.diigo.com/rss/apprendre20/bookmark" htmlUrl="https://groups.diigo.com/group/apprendre20" type="rss" row="1000" col="2"/>
+   <outline title="The Official Google Blog" xmlUrl="http://googleblog.blogspot.com/atom.xml" htmlUrl="https://www.blog.google/" type="rss" row="2000" col="2"/>
+   <outline title="Connotea: Bookmarks matching tag oa.new" xmlUrl="http://www.connotea.org/rss/tag/oa.new" htmlUrl="" type="rss" row="3000" col="2"/>
+   <outline title="Singularity Hub" xmlUrl="http://feeds.feedburner.com/SingularityHub" htmlUrl="https://singularityhub.com/" type="rss" row="4000" col="2"/>
+   <outline title="Open Intelligence" xmlUrl="http://openintelligence.wordpress.com/feed/" htmlUrl="https://openintelligence.wordpress.com/" type="rss" row="1000" col="3"/>
+   <outline title="InaGlobal : Technologies" xmlUrl="http://www.inaglobal.fr/feed/15" htmlUrl="https://www.inaglobal.fr/" type="rss" row="2000" col="3"/>
+   <outline title="Les journées d'Isko.  Intelligence collective et organisation des connaissances" xmlUrl="http://isko.univ-lyon3.fr/?feed=rss2" htmlUrl="" type="rss" row="3000" col="3"/>
+   <outline title="MOOC Francophone" xmlUrl="http://mooc-francophone.com/rss" htmlUrl="https://mooc-francophone.com/" type="rss" row="4000" col="3"/>
+  </outline>
+  <outline title="Actu Univ" cols="3" layout="3-0">
+   <outline title="Web sémantique et de données – Observatoire des technologies de l'IST" xmlUrl="https://ist.blogs.inra.fr/technologies/category/web-semantique/?feed=rss" htmlUrl="https://ist.blogs.inra.fr/technologies" type="rss" row="31.25" col="1"/>
+   <outline title="Observatoire des technologies de l'IST » Flux" xmlUrl="https://ist.blogs.inra.fr/technologies/feed/" htmlUrl="https://ist.blogs.inra.fr/technologies" type="rss" row="62.5" col="1"/>
+   <outline type="PotionWizard" title="Flux to sheet" row="125" col="1">
+    <outline preconfigData="{&quot;title&quot;:&quot;Flux to sheet&quot;,&quot;glue&quot;:2,&quot;actions&quot;:[{&quot;id&quot;:52961,&quot;status&quot;:&quot;active&quot;,&quot;potionId&quot;:&quot;420dbb23-a8c3-11e7-b579-a0369feca080&quot;,&quot;ingredient&quot;:&quot;com.google.sheets&quot;,&quot;reference&quot;:&quot;add_line&quot;,&quot;name&quot;:&quot;com.google.sheets.line.add&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:{&quot;connect_id&quot;:&quot;1476531&quot;,&quot;spreadsheet&quot;:&quot;11XdCPlRXzE__9xzLa-LlypUKxYDSTdKdEBNRdJH6QCc&quot;,&quot;worksheet&quot;:&quot;Feuille 1&quot;,&quot;triggers&quot;:[true]},&quot;description&quot;:&quot;on account \&quot;Samuel SZONIECKY\&quot;, spreadsheet \&quot;NetVibes - Potion A\&quot; and sheet \&quot;Feuille 1\&quot;&quot;},&quot;createdAt&quot;:1507094223,&quot;updatedAt&quot;:null}],&quot;triggers&quot;:[{&quot;id&quot;:53271,&quot;status&quot;:&quot;active&quot;,&quot;potionId&quot;:&quot;420dbb23-a8c3-11e7-b579-a0369feca080&quot;,&quot;ingredient&quot;:&quot;com.netvibes.stream&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.stream.{uuid}.article.new&quot;,&quot;event&quot;:&quot;com.netvibes.dashboard.591013.stream.477616ac-342a-11e4-b640-a4badb4444dc.article.new&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;title&quot;:[],&quot;content&quot;:[],&quot;hasImages&quot;:false,&quot;author&quot;:[]},&quot;formula&quot;:&quot;&quot;,&quot;mode&quot;:&quot;basic&quot;,&quot;general&quot;:{&quot;id&quot;:&quot;591013&quot;,&quot;uuid&quot;:&quot;477616ac-342a-11e4-b640-a4badb4444dc&quot;,&quot;feed&quot;:&quot;Cairn - Ouvrages de recherche d'Info, Communication&quot;},&quot;backlog&quot;:{&quot;type&quot;:&quot;count&quot;,&quot;count&quot;:1},&quot;timezone&quot;:&quot;Europe\/Paris&quot;,&quot;description&quot;:&quot;on Cairn - Ouvrages de recherche d'Info, Communication&quot;},&quot;newestBucket&quot;:0,&quot;newestBucketSize&quot;:72,&quot;oldestBucket&quot;:0,&quot;createdAt&quot;:1507094223,&quot;updatedAt&quot;:1507094223}]}"/>
+   </outline>
+   <outline title="Revue française des sciences de l’information et de la communication" xmlUrl="http://rfsic.revues.org/backend?format=rssnumeros" htmlUrl="http://journals.openedition.org/rfsic" type="rss" row="250" col="1"/>
+   <outline title="UDPN" xmlUrl="http://udpn.fr/spip.php?page=backend" htmlUrl="http://udpn.fr/" type="rss" row="500" col="1"/>
+   <outline title="Cairn.info - Ouvrages collectifs de Sciences politiques" xmlUrl="http://www.cairn.info/rss/rss_ouvrages-sciences-politiques.xml" htmlUrl="http://www.cairn.info/" type="rss" row="1000" col="1"/>
+   <outline title="ISC-PIF Agenda" xmlUrl="http://www.iscpif.fr/tiki-calendars_rss.php" htmlUrl="" type="rss" row="2000" col="1"/>
+   <outline title="Activités" xmlUrl="http://activites.revues.org/backend?format=rssnumeros" htmlUrl="http://journals.openedition.org/activites" type="rss" row="2500" col="1"/>
+   <outline title="DLIS" xmlUrl="http://dlis.hypotheses.org/feed" htmlUrl="https://dlis.hypotheses.org/" type="rss" row="3000" col="1"/>
+   <outline title="Carnet (neo)cartographique" xmlUrl="http://neocarto.hypotheses.org/feed" htmlUrl="https://neocarto.hypotheses.org/" type="rss" row="4000" col="1"/>
+   <outline title="Cairn.info - Revues de Philosophie" xmlUrl="http://www.cairn.info/rss/rss_philosophie.xml" htmlUrl="http://www.cairn.info/" type="rss" row="5000" col="1"/>
+   <outline title="Cairn.info - Revues de Sc. de l’information" xmlUrl="http://www.cairn.info/rss/rss_sciences-de-l-information.xml" htmlUrl="http://www.cairn.info/" type="rss" row="6000" col="1"/>
+   <outline title="Cairn.info - Ouvrages collectifs de Sociologie et société" xmlUrl="http://www.cairn.info/rss/rss_ouvrages-sociologie-et-societe.xml" htmlUrl="http://www.cairn.info/" type="rss" row="7000" col="1"/>
+   <outline title="Argumentation et Analyse du Discours" xmlUrl="http://aad.revues.org/backend?format=rssnumeros" htmlUrl="http://journals.openedition.org/aad" type="rss" row="7500" col="1"/>
+   <outline title="Cairn.info - Le Monde diplomatique" xmlUrl="http://www.cairn.info/rss/rss_revue-le-monde-diplomatique.xml" htmlUrl="http://www.cairn.info/" type="rss" row="8000" col="1"/>
+   <outline title="News" xmlUrl="http://adho.org/rss.xml" htmlUrl="http://adho.org/rss.xml" type="rss" row="1000" col="2"/>
+   <outline title="Cairn.info - Les Grands Dossiers des Sciences Humaines" xmlUrl="http://www.cairn.info/rss/rss_revue-les-grands-dossiers-des-sciences-humaines.xml" htmlUrl="http://www.cairn.info/" type="rss" row="2000" col="2"/>
+   <outline title="Cairn.info - Sciences humaines" xmlUrl="http://www.cairn.info/rss/rss_revue-sciences-humaines.xml" htmlUrl="http://www.cairn.info/" type="rss" row="3000" col="2"/>
+   <outline title="Cairn.info - Revues de Sociologie et société" xmlUrl="http://www.cairn.info/rss/rss_sociologie-et-societe.xml" htmlUrl="http://www.cairn.info/" type="rss" row="4000" col="2"/>
+   <outline title="Calenda" xmlUrl="http://calenda.revues.org/backend.php" htmlUrl="https://calenda.org/" type="rss" row="5000" col="2"/>
+   <outline title="Cairn.info - Manière de voir" xmlUrl="http://www.cairn.info/rss/rss_revue-maniere-de-voir.xml" htmlUrl="http://www.cairn.info/" type="rss" row="6000" col="2"/>
+   <outline title="Études de communication" xmlUrl="http://edc.revues.org/backend.html?format=rssdocuments" htmlUrl="http://journals.openedition.org/edc" type="rss" row="7000" col="2"/>
+   <outline title="NT2 - Nouvelles technologies, nouvelles textualités." xmlUrl="http://nt2.uqam.ca/rss.xml" htmlUrl="http://nt2.uqam.ca/" type="rss" row="8000" col="2"/>
+   <outline title="Cairn.info - Que sais-je ?" xmlUrl="http://www.cairn.info/rss/rss_qsj.xml" htmlUrl="http://www.cairn.info/" type="rss" row="1000" col="3"/>
+   <outline title="Netcom" xmlUrl="http://netcom.revues.org/backend?format=rssdocuments" htmlUrl="http://journals.openedition.org/netcom" type="rss" row="2000" col="3"/>
+   <outline title="Cairn.info - Revues de Sciences de l’éducation" xmlUrl="http://www.cairn.info/rss/rss_sciences-de-l-education.xml" htmlUrl="http://www.cairn.info/" type="rss" row="3000" col="3"/>
+   <outline title="Cairn  - Revues d'Histoire" xmlUrl="http://www.cairn.info/rss/rss_histoire.xml" htmlUrl="http://www.cairn.info/" type="rss" row="4000" col="3"/>
+   <outline title="Cairn  - Revues d'Intérêt général" xmlUrl="http://www.cairn.info/rss/rss_interet-general.xml" htmlUrl="http://www.cairn.info/" type="rss" row="5000" col="3"/>
+   <outline title="HASTAC - Most Recent Posts" xmlUrl="http://hastac.org/content/feed" htmlUrl="https://www.hastac.org/rss.xml" type="rss" row="6000" col="3"/>
+   <outline title="Cairn - Ouvrages de recherche d'Histoire" xmlUrl="http://www.cairn.info/rss/rss_ouvrages-histoire.xml" htmlUrl="http://www.cairn.info/" type="rss" row="7000" col="3"/>
+   <outline title="Cairn.info - Revues de Géographie" xmlUrl="http://www.cairn.info/rss/rss_geographie.xml" htmlUrl="http://www.cairn.info/" type="rss" row="8000" col="3"/>
+  </outline>
+  <outline title="carto" cols="3" layout="3-0">
+   <outline title="Carnet (neo)cartographique" xmlUrl="http://neocarto.hypotheses.org/feed" htmlUrl="https://neocarto.hypotheses.org/" type="rss" row="2000" col="1"/>
+   <outline title="Bienvenue sur le site du GDR MAGIS" xmlUrl="http://magis.ecole-navale.fr/index.php?format=feed&amp;type=rss" htmlUrl="http://magis.ecole-navale.fr/index.php/component/content/?view=featured" type="rss" row="1000" col="2"/>
+   <outline title="Gallica: Cartes" xmlUrl="http://gallica.bnf.fr/cartes.xml" htmlUrl="https://gallica.bnf.fr/" type="rss" row="1000" col="3"/>
+  </outline>
+  <outline title="semcarto" cols="3" layout="3-0">
+   <outline title="Visualoop" xmlUrl="http://feeds.feedburner.com/visualoop/en" htmlUrl="http://visualoop.com/" type="rss" row="1000" col="1"/>
+   <outline title="Information Is Beautiful" xmlUrl="http://feeds.feedburner.com/InformationIsBeautiful" htmlUrl="https://informationisbeautiful.net/" type="rss" row="2000" col="1"/>
+   <outline title="Simple Complexity" xmlUrl="http://feeds.feedburner.com/SimpleComplexity" htmlUrl="http://simplecomplexity.net/" type="rss" row="3000" col="1"/>
+   <outline title="heuristiquement" xmlUrl="http://feeds.feedburner.com/Heuristiquement" htmlUrl="http://www.heuristiquement.com/" type="rss" row="4000" col="1"/>
+   <outline title="information aesthetics" xmlUrl="http://infosthetics.com/atom.xml" htmlUrl="http://infosthetics.com/" type="rss" row="5000" col="1"/>
+   <outline title="AS-MAP" xmlUrl="http://www.as-map.com/blog/feed/" htmlUrl="http://www.as-map.com/" type="rss" row="6000" col="1"/>
+   <outline title="Media Cloud" xmlUrl="http://www.mediacloud.org/feed" htmlUrl="http://mediacloud.org/" type="rss" row="7000" col="1"/>
+   <outline title="visualcomplexity.com" xmlUrl="http://feeds.feedburner.com/visualcomplexity" htmlUrl="http://www.visualcomplexity.com/" type="rss" row="8000" col="1"/>
+   <outline title="Mind Map Inspiration" xmlUrl="http://feeds.feedburner.com/MindMapInspiration" htmlUrl="http://www.mindmapinspiration.com/" type="rss" row="9000" col="1"/>
+   <outline title="hyperurbain" xmlUrl="http://www.citu.info/hyperurbain/?feed=rss2" htmlUrl="" type="rss" row="1000" col="2"/>
+   <outline title="Circle of Complexity" xmlUrl="http://www.pawelszczesny.org/feed/" htmlUrl="http://www.pawelszczesny.org/" type="rss" row="2000" col="2"/>
+   <outline title="EXPOVIZ" xmlUrl="http://expoviz.fr/rss" htmlUrl="http://expoviz.fr/" type="rss" row="3000" col="2"/>
+   <outline title="Monde géonumérique" xmlUrl="http://mondegeonumerique.wordpress.com/feed/" htmlUrl="https://mondegeonumerique.wordpress.com/" type="rss" row="4000" col="2"/>
+   <outline title="DensityDesign | Communication Design &amp; Complexity" xmlUrl="http://www.densitydesign.org/feed/" htmlUrl="https://densitydesign.org/" type="rss" row="5000" col="2"/>
+   <outline title="idsgn (a design blog): Design and branding news" xmlUrl="http://feeds.feedburner.com/idsgn" htmlUrl="http://idsgn.org/posts/" type="rss" row="6000" col="2"/>
+   <outline title="Visualizing.org News and Visualizations Feed" xmlUrl="http://visualizing.org/rss.xml" htmlUrl="http://visualizing.org/rss.xml" type="rss" row="7000" col="2"/>
+   <outline title="Datavisualization.ch" xmlUrl="http://feeds.feedburner.com/Datavisualization" htmlUrl="https://datavisualization.ch/" type="rss" row="8000" col="2"/>
+   <outline title="Visual.ly" xmlUrl="http://visual.ly/top_rss.xml" htmlUrl="https://visual.ly/" type="rss" row="1000" col="3"/>
+   <outline title="Visualoop" xmlUrl="http://feeds.feedburner.com/visualoop/en" htmlUrl="http://visualoop.com/" type="rss" row="1500" col="3"/>
+   <outline title="Freakonometrics" xmlUrl="http://freakonometrics.blog.free.fr/index.php?feed/atom" htmlUrl="http://freakonometrics.blog.free.fr/index.php?" type="rss" row="2000" col="3"/>
+   <outline title="FlowingData" xmlUrl="http://feeds.feedburner.com/FlowingData" htmlUrl="https://flowingdata.com/" type="rss" row="3000" col="3"/>
+   <outline title="Google Maps Mania" xmlUrl="http://feeds.feedburner.com/GoogleMapsMania" htmlUrl="http://googlemapsmania.blogspot.com/" type="rss" row="4000" col="3"/>
+   <outline title="Kelso's Corner" xmlUrl="http://feeds.feedburner.com/KelsosCorner" htmlUrl="http://kelsocartography.com/blog" type="rss" row="5000" col="3"/>
+   <outline title="ActuVisu" xmlUrl="http://www.actuvisu.fr/rss.php" htmlUrl="http://preprod.actuvisu.fr/" type="rss" row="6000" col="3"/>
+   <outline title="Ask E.T" xmlUrl="http://www.edwardtufte.com/bboard/asket.xml" htmlUrl="http://www.edwardtufte.com/bboard/q-and-a?topic_id=1" type="rss" row="7000" col="3"/>
+   <outline title="thematic mapping blog" xmlUrl="http://feeds2.feedburner.com/thematicmapping?format=xml" htmlUrl="http://blog.mastermaps.com/" type="rss" row="8000" col="3"/>
+  </outline>
+  <outline title="Chercheurs" cols="3" layout="3-0">
+   <outline title="Antonio A. Casilli :: BodySpaceSociety" xmlUrl="http://www.bodyspacesociety.eu/feed/" htmlUrl="http://www.casilli.fr/" type="rss" row="2000" col="1"/>
+   <outline title="Le carnet du GRCDI" xmlUrl="http://grcdi.hypotheses.org/feed" htmlUrl="https://grcdi.hypotheses.org/" type="rss" row="3000" col="1"/>
+   <outline title="John Resig" xmlUrl="http://feeds.feedburner.com/JohnResig" htmlUrl="https://johnresig.com/" type="rss" row="4000" col="1"/>
+   <outline title="Blog de Paul Jorion" xmlUrl="http://www.pauljorion.com/blog/?feed=rss2" htmlUrl="https://www.pauljorion.com/blog" type="rss" row="5000" col="1"/>
+   <outline title="Design &amp; Digital Humanities (2DH)" xmlUrl="http://2dh.hypotheses.org/feed" htmlUrl="https://2dh.hypotheses.org/" type="rss" row="1000" col="2"/>
+   <outline title="Digital Humanities for beginners | Scoop.it" xmlUrl="http://www.scoop.it/t/digital-humanities-for-beginners/rss.xml" htmlUrl="http://www.scoop.it/t/digital-humanities-for-beginners" type="rss" row="2000" col="2"/>
+   <outline title="IRI" xmlUrl="http://www.iri.centrepompidou.fr/feed/?lang=fr_fr" htmlUrl="https://www.iri.centrepompidou.fr/" type="rss" row="3000" col="2"/>
+   <outline title="Ouvrages Springer en Epistemology &amp;amp; Philosophy of Science" xmlUrl="https://www.springer.com/philosophy/epistemology+and+philosophy+of+science/rssfeed?7-40399-820-0-0" htmlUrl="http://www.springer.com/philosophy/epistemology+and+philosophy+of+science?SGWID=0-40399-0-0-0" type="rss" row="3500" col="2"/>
+   <outline title="Hypotheses.org" xmlUrl="http://hypotheses.org/feed" htmlUrl="https://hypotheses.org/" type="rss" row="4000" col="2"/>
+   <outline title="Espacestemps.net » Rubriques » Bibliothèque" xmlUrl="http://www.espacestemps.net/rubriques/bibliotheques/feed/" htmlUrl="https://www.espacestemps.net/" type="rss" row="5000" col="2"/>
+   <outline title="Frederic Kaplan" xmlUrl="http://fkaplan.wordpress.com/feed/" htmlUrl="https://fkaplan.wordpress.com/" type="rss" row="1000" col="3"/>
+   <outline title="InaGlobal : Numérique" xmlUrl="http://www.inaglobal.fr/feed/7" htmlUrl="https://www.inaglobal.fr/" type="rss" row="2000" col="3"/>
+   <outline title="Le peuple des connecteurs" xmlUrl="http://feeds2.feedburner.com/tcrouzetBlog" htmlUrl="https://tcrouzet.com/" type="rss" row="3000" col="3"/>
+   <outline title="Samuel Szoniecky" xmlUrl="http://www.samszo.univ-paris8.fr/spip.php?page=backend" htmlUrl="http://www.samszo.univ-paris8.fr/" type="rss" row="4000" col="3"/>
+   <outline title="L'embrayage nature culture" xmlUrl="http://ecoumene.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="" type="rss" row="5000" col="3"/>
+  </outline>
+  <outline title="STIC" cols="3" layout="3-0">
+   <outline title="L'association des professionnels de l'information et de la documentation" xmlUrl="http://www.adbs.fr/adminsite/webservices/export_rss.jsp?OBJET=OUVRAGE&amp;STYLE=0003&amp;NOMBRE=4&amp;TYPE_OUVRAGE=EDIDOCS&amp;DATE_PARUTION_DOCSI=" htmlUrl="http://www.adbs.fr/" type="rss" row="2000" col="1"/>
+   <outline title="Études de communication" xmlUrl="http://edc.revues.org/backend.html?format=rssnumeros" htmlUrl="http://journals.openedition.org/edc" type="rss" row="1000" col="2"/>
+   <outline title="Études de communication" xmlUrl="http://edc.revues.org/backend.html?format=rssdocuments" htmlUrl="http://journals.openedition.org/edc" type="rss" row="1000" col="3"/>
+  </outline>
+  <outline title="pôle éthique" cols="3" layout="3-0">
+   <outline title="Autrans 2009" xmlUrl="http://www.autrans.net/spip/spip.php?page=backend&amp;lang=fr" htmlUrl="http://www.autrans.net/spip/" type="rss" row="2000" col="1"/>
+   <outline title="AGORA / sciences sociales" xmlUrl="http://agora.hypotheses.org/feed/" htmlUrl="https://agora.hypotheses.org/" type="rss" row="1000" col="2"/>
+   <outline title="Attac France" xmlUrl="http://www.france.attac.org/spip.php?page=backend" htmlUrl="https://france.attac.org/" type="rss" row="2000" col="2"/>
+   <outline title="L'Observatoire des médias" xmlUrl="http://feeds.feedburner.com/observatoiredesmedias" htmlUrl="https://www.observatoiredesmedias.com/" type="rss" row="1000" col="3"/>
+  </outline>
+  <outline title="actulivre" cols="3" layout="3-0">
+   <outline title="Amazon.fr: Dernières nouveautés en Livres &gt; Religions et Spiritualités" xmlUrl="http://www.amazon.fr/gp/rss/new-releases/books/301997/ref=zg_bsnr_301997_rsslink/276-9367067-6634150" htmlUrl="https://www.amazon.fr/gp/new-releases/books/301997/ref=pd_zg_rss_nr_b_301997_c" type="rss" row="2000" col="1"/>
+   <outline title="Amazon.fr: Dernières nouveautés en Livres &gt; Histoire" xmlUrl="http://www.amazon.fr/gp/rss/new-releases/books/689214031/ref=zg_bsnr_689214031_rsslink/277-9194808-2417960" htmlUrl="https://www.amazon.fr/gp/new-releases/books/689214031/ref=pd_zg_rss_nr_b_689214031_c" type="rss" row="3000" col="1"/>
+   <outline title="Amazon.fr: Dernières nouveautés en Livres &gt; Actu, Politique et Société" xmlUrl="http://www.amazon.fr/gp/rss/new-releases/books/689215031/ref=zg_bsnr_689215031_rsslink" htmlUrl="https://www.amazon.fr/gp/new-releases/books/689215031/ref=pd_zg_rss_nr_b_689215031_c" type="rss" row="1000" col="2"/>
+   <outline title="Amazon.fr: Dernières nouveautés en Livres &gt; Etudes supérieures" xmlUrl="http://www.amazon.fr/gp/rss/new-releases/books/3961911/ref=zg_bsnr_3961911_rsslink/276-4444056-3671923" htmlUrl="https://www.amazon.fr/gp/new-releases/books/3961911/ref=pd_zg_rss_nr_b_3961911_c" type="rss" row="2000" col="2"/>
+   <outline title="Amazon.fr: Dernières nouveautés en Livres &gt; Sciences humaines" xmlUrl="http://www.amazon.fr/gp/rss/new-releases/books/301139/ref=zg_bsnr_301139_rsslink/277-8512657-7155746" htmlUrl="https://www.amazon.fr/gp/new-releases/books/301139/ref=pd_zg_rss_nr_b_301139_c" type="rss" row="3000" col="2"/>
+   <outline title="Amazon.fr: Dernières nouveautés en Livres &gt; Informatique et Internet" xmlUrl="http://www.amazon.fr/gp/rss/new-releases/books/301131/ref=zg_bsnr_301131_rsslink/275-3978310-6783056" htmlUrl="https://www.amazon.fr/gp/new-releases/books/301131/ref=pd_zg_rss_nr_b_301131_c" type="rss" row="1000" col="3"/>
+   <outline title="Amazon.fr: Dernières nouveautés en Livres &gt; Sciences, Techniques et Médecine" xmlUrl="http://www.amazon.fr/gp/rss/new-releases/books/301141/ref=zg_bsnr_301141_rsslink/277-1568831-6610441" htmlUrl="https://www.amazon.fr/gp/new-releases/books/301141/ref=pd_zg_rss_nr_b_301141_c" type="rss" row="2000" col="3"/>
+  </outline>
+  <outline title="DEV" cols="3" layout="3-0">
+   <outline title="Journal of Data Mining &amp;amp; Digital Humanities - RSS" xmlUrl="http://jdmdh.episciences.org/rss/papers" htmlUrl="https://jdmdh.episciences.org/" type="rss" row="1000" col="1"/>
+   <outline title="Developpez.com" xmlUrl="http://www.developpez.com/index/rss" htmlUrl="http://www.developpez.com/index/rss" type="rss" row="2000" col="1"/>
+   <outline title="SPIP Blog" xmlUrl="http://blog.spip.net/spip.php?page=backend" htmlUrl="https://blog.spip.net/" type="rss" row="3000" col="1"/>
+   <outline title="Google XXL" xmlUrl="http://googlexxl.blogspot.com/feeds/posts/default" htmlUrl="http://googlexxl.blogspot.com/" type="rss" row="4000" col="1"/>
+   <outline title="ProgrammableWeb: API Feed" xmlUrl="http://feeds.feedburner.com/programmableweb/apis" htmlUrl="https://www.programmableweb.com/rss_api" type="rss" row="1000" col="2"/>
+   <outline title="Business Intelligence Lowdown" xmlUrl="http://www.businessintelligencelowdown.com/index.rdf" htmlUrl="" type="rss" row="2000" col="2"/>
+   <outline title="Mashups via Programmable Web" xmlUrl="http://feeds.feedburner.com/programmableweb/mashup" htmlUrl="https://www.programmableweb.com/rss_mashup" type="rss" row="3000" col="2"/>
+   <outline title="InaGlobal : Presse" xmlUrl="http://www.inaglobal.fr/feed/6" htmlUrl="https://www.inaglobal.fr/" type="rss" row="4000" col="2"/>
+   <outline title="Web Apps on Go2Web20" xmlUrl="http://feeds.feedburner.com/go2web20net" htmlUrl="http://www.go2web20.net/" type="rss" row="1000" col="3"/>
+   <outline title="Planète Xulfr" xmlUrl="http://planete.xulfr.org/rss.php" htmlUrl="http://planete.xulfr.org/" type="rss" row="2000" col="3"/>
+   <outline title="dzone.com: latest front page" xmlUrl="http://www.dzone.com/feed/frontpage/rss.xml" htmlUrl="http://www.dzone.com/links/" type="rss" row="3000" col="3"/>
+  </outline>
+  <outline title="New Tab 15" cols="3" layout="3-0"/>
+ </body>
+</opml>

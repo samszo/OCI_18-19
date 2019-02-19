@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+ <head>
+  <title>Personal Dashboard</title>
+  <type>Premium</type>
+  <creationDate>2019-02-19 08:54:48</creationDate>
+ </head>
+ <body>
+  <outline title="Bienvenue" icon="home" iconColor="blue" cols="4" layout="4-1">
+   <outline type="WelcomeVip" title="Welcome to your Dashboard" row="1000" col="1">
+    <outline color="borderless" mode="welcome"/>
+   </outline>
+   <outline type="PotionWizard" title="Alert me if it'll rain tomorrow" row="4000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Alert me if it'll rain tomorrow&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.weather&quot;,&quot;reference&quot;:&quot;weather_forecast&quot;,&quot;name&quot;:&quot;com.weather.city.{city}.forecast.{day}&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;weatherConditions&quot;:&quot;Rain&quot;},&quot;formula&quot;:&quot;bluntConditions is 'Rain'&quot;}}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Alert me if it'll rain tomorrow"/>
+   </outline>
+   <outline type="Weather" title="Bourg-Saint-Maurice, France" row="1000" col="3">
+    <outline unit="1" town="45.617/6.769"/>
+   </outline>
+   <outline type="TodoList" title="To Do List" row="1000" col="4">
+    <outline todos="{&quot;t1&quot;:{&quot;title&quot;:&quot;Organize your life!&quot;,&quot;color&quot;:&quot;#078d93&quot;,&quot;id&quot;:&quot;t1&quot;},&quot;t2&quot;:{&quot;title&quot;:&quot;Write Things Down&quot;,&quot;color&quot;:&quot;#96BC0D&quot;,&quot;id&quot;:&quot;t2&quot;},&quot;t3&quot;:{&quot;title&quot;:&quot;Make Schedules and Deadlines&quot;,&quot;color&quot;:&quot;#96BC0D&quot;,&quot;id&quot;:&quot;t3&quot;}}"/>
+   </outline>
+  </outline>
+  <outline title="Éducation &gt; Éducation (FR)" icon="rss" iconColor="grey" cols="4" layout="4-1">
+   <outline title="Éducation : Toute l'actualité sur Le Monde.fr." xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f2d4ac6a-26ca-11e8-9385-a0369fec958c&quot;,&quot;token&quot;:&quot;2cd1683c88f14588f34bc7c3e46b22478e1b239b&quot;}]}&amp;format=atom" type="rss" row="1000" col="1"/>
+   <outline title="Éducation : Toute l'actualité sur Le Monde.fr." xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;1393ec19-b2fc-11e6-acd1-782bcb10e966&quot;,&quot;token&quot;:&quot;ff17d066b9dc660ba0949d4b7814e2a3b8170eb9&quot;}]}&amp;format=atom" type="rss" row="2000" col="1"/>
+   <outline type="SmartFilter" title="Today's articles from &quot;Éducation &gt; Éducation (FR)&quot; tab" row="1000" col="2">
+    <outline title="Today's articles from &quot;Éducation &gt; Éducation (FR)&quot; tab" searchQuery="{&quot;topic&quot;:&quot;*:*&quot;,&quot;context&quot;:{&quot;tab&quot;:[&quot;Éducation &gt; Éducation (FR)&quot;]}}" searchToken="" view="" viewHeight="medium" color=""/>
+   </outline>
+   <outline type="SmartFilter" title="Today's articles from &quot;Éducation &gt; Éducation (FR)&quot; tab" row="2000" col="2">
+    <outline title="Today's articles from &quot;Éducation &gt; Éducation (FR)&quot; tab" searchQuery="{&quot;topic&quot;:&quot;*:*&quot;,&quot;context&quot;:{&quot;tab&quot;:[&quot;Éducation &gt; Éducation (FR)&quot;]}}" searchToken="" view="" viewHeight="medium" color=""/>
+   </outline>
+   <outline type="PotionWizard" title="Éducation: Topic watch" row="3000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Éducation: Topic watch&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.library&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.library.{wid}.article.new&quot;,&quot;config&quot;:[]}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Éducation: Topic watch"/>
+   </outline>
+   <outline type="PotionWizard" title="Éducation: Topic watch" row="4000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Éducation: Topic watch&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.library&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.library.{wid}.article.new&quot;,&quot;config&quot;:[]}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Éducation: Topic watch"/>
+   </outline>
+   <outline type="Library" row="5000" col="2" title="Éducation" viewHeight="medium" libraryId="2317248590" libraryToken="ee905a8199fd93dd58aaf0873d968cb4bdb89dc4"/>
+   <outline type="Library" row="6000" col="2" title="Éducation" viewHeight="medium" libraryId="2317247877" libraryToken="ee905a8199fd93dd58aaf0873d968cb4bdb89dc4"/>
+   <outline title="Monde des grandes écoles et universités" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;127c510c-b2fc-11e6-acd1-782bcb10e966&quot;,&quot;token&quot;:&quot;4d16ba86ff87a49b2481dc85352580502ee2e580&quot;}]}&amp;format=atom" type="rss" row="1000" col="3"/>
+   <outline title="Monde des grandes écoles et universités" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f2d98d48-26ca-11e8-8c5a-a0369fec958c&quot;,&quot;token&quot;:&quot;4faf75de34e960f487e200678a5221ad7b8e2336&quot;}]}&amp;format=atom" type="rss" row="2000" col="3"/>
+   <outline title="L'etudiant" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f2df5f8e-26ca-11e8-91e6-a0369fec958c&quot;,&quot;token&quot;:&quot;70255b322967213b9363a8a9bed83d2dbe402ce5&quot;}]}&amp;format=atom" type="rss" row="3000" col="3"/>
+   <outline title="L'etudiant" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;127c511a-b2fc-11e6-acd1-782bcb10e966&quot;,&quot;token&quot;:&quot;af971b8c64b266b71cbf7ccda678f3187206d3e4&quot;}]}&amp;format=atom" type="rss" row="4000" col="3"/>
+   <outline title="Actualités sur des sociétés qui recrutent et zooms sur les politiques RH des entreprises - RegionsJob" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f2e5502e-26ca-11e8-84b4-a0369fec958c&quot;,&quot;token&quot;:&quot;b24c6a202a209190c8e30e53c3473e6a7a377fcb&quot;}]}&amp;format=atom" type="rss" row="5000" col="3"/>
+   <outline title="Actualités sur des sociétés qui recrutent et zooms sur les politiques RH des entreprises - RegionsJob" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;1393ec1b-b2fc-11e6-acd1-782bcb10e966&quot;,&quot;token&quot;:&quot;5970d907dce76b572bf901561997acdcd2ef051d&quot;}]}&amp;format=atom" type="rss" row="6000" col="3"/>
+   <outline title="Education.gouv.fr : Toute l'actualité" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f2d799ca-26ca-11e8-8343-a0369fec958c&quot;,&quot;token&quot;:&quot;6b3d96ac65f493f23eafe1129df859b15f563335&quot;}]}&amp;format=atom" type="rss" row="1000" col="4"/>
+   <outline title="Education.gouv.fr : Toute l'actualité" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;1393ec12-b2fc-11e6-acd1-782bcb10e966&quot;,&quot;token&quot;:&quot;65115a0da32af575ab2f8fca5f0270c46669e21f&quot;}]}&amp;format=atom" type="rss" row="2000" col="4"/>
+   <outline title="Flux des actualités - digiSchool.fr" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;1393ec16-b2fc-11e6-acd1-782bcb10e966&quot;,&quot;token&quot;:&quot;32b1c4fe201e37120013e19dffe1595f511dcf52&quot;}]}&amp;format=atom" type="rss" row="3000" col="4"/>
+   <outline title="Flux des actualités - digiSchool.fr" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f2dd159e-26ca-11e8-9b48-a0369fec958c&quot;,&quot;token&quot;:&quot;4e9f94b1cca25cffb82a9e0661e9d0ce25a2240b&quot;}]}&amp;format=atom" type="rss" row="4000" col="4"/>
+   <outline title="Capcampus.com" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f2e256a8-26ca-11e8-b4f7-a0369fec958c&quot;,&quot;token&quot;:&quot;8458d36757cba0c83b3a63c9483b43388585555e&quot;}]}&amp;format=atom" type="rss" row="5000" col="4"/>
+   <outline title="Capcampus.com" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;127c5115-b2fc-11e6-acd1-782bcb10e966&quot;,&quot;token&quot;:&quot;f93593811d002ffc4613d4ab5f27fbdc153d3535&quot;}]}&amp;format=atom" type="rss" row="6000" col="4"/>
+  </outline>
+  <outline title="Interest: &quot;France&quot;" icon="star" iconColor="green" cols="4" layout="4-1">
+   <outline type="SmartFilter" title="All &quot;France&quot; articles" row="2000" col="1">
+    <outline title="All &quot;France&quot; articles" searchQuery="{&quot;topic&quot;:&quot;France&quot;}" searchToken="" view="mosaic" viewHeight="medium" color=""/>
+   </outline>
+   <outline type="PotionWizard" title="New article" row="7000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;New article&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.stream&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.stream.{uuid}.article.new&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;content&quot;:[&quot;France&quot;],&quot;hasImages&quot;:true},&quot;formula&quot;:&quot;content contains \&quot;France\&quot; and type of enclosures contains 'image')&quot;}}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="New article"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;France&quot; articles from Press &amp; Media" row="1000" col="3">
+    <outline title="&quot;France&quot; articles from Press &amp; Media" searchQuery="{&quot;topic&quot;:&quot;France AND media:\&quot;press and media\&quot;&quot;}" searchToken="" view="" viewHeight="medium" color=""/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;France&quot; images" row="1000" col="4">
+    <outline title="&quot;France&quot; images" searchQuery="{&quot;topic&quot;:&quot;France AND image:\&quot;true\&quot;&quot;}" searchToken="" view="mosaic" viewHeight="medium" color=""/>
+   </outline>
+  </outline>
+ </body>
+</opml>

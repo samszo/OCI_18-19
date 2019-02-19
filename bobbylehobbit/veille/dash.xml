@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+ <head>
+  <title>Personal Dashboard</title>
+  <type>Private</type>
+  <creationDate>2019-02-19 09:22:24</creationDate>
+ </head>
+ <body>
+  <outline title="Bienvenue" icon="home" iconColor="blue" cols="4" layout="4-1">
+   <outline type="WelcomeVip" title="Welcome to your Dashboard" row="1000" col="1">
+    <outline color="borderless" mode="welcome"/>
+   </outline>
+   <outline type="PotionWizard" title="Alert me if it'll rain tomorrow" row="4000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Alert me if it'll rain tomorrow&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.weather&quot;,&quot;reference&quot;:&quot;weather_forecast&quot;,&quot;name&quot;:&quot;com.weather.city.{city}.forecast.{day}&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;weatherConditions&quot;:&quot;Rain&quot;},&quot;formula&quot;:&quot;bluntConditions is 'Rain'&quot;}}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Alert me if it'll rain tomorrow"/>
+   </outline>
+   <outline type="Weather" title="Saint-Ouen, France" row="1000" col="3">
+    <outline unit="1" town="48.907/2.333"/>
+   </outline>
+   <outline type="TodoList" title="To Do List" row="1000" col="4">
+    <outline todos="{&quot;t1&quot;:{&quot;title&quot;:&quot;Organize your life!&quot;,&quot;color&quot;:&quot;#078d93&quot;,&quot;id&quot;:&quot;t1&quot;},&quot;t2&quot;:{&quot;title&quot;:&quot;Write Things Down&quot;,&quot;color&quot;:&quot;#96BC0D&quot;,&quot;id&quot;:&quot;t2&quot;},&quot;t3&quot;:{&quot;title&quot;:&quot;Make Schedules and Deadlines&quot;,&quot;color&quot;:&quot;#96BC0D&quot;,&quot;id&quot;:&quot;t3&quot;}}"/>
+   </outline>
+  </outline>
+  <outline title="Tech &gt; Android (FR)" icon="rss" iconColor="grey" cols="4" layout="4-1">
+   <outline title="FrAndroid" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;efec025a-26ca-11e8-9e2c-a0369fec958c&quot;,&quot;token&quot;:&quot;e9c0838e6f8bbb0502777bafc11c9ec5b4f972cb&quot;}]}&amp;format=atom" type="rss" row="1000" col="1"/>
+   <outline title="FrAndroid" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;04cc4a13-b242-11e6-b093-782bcb11773e&quot;,&quot;token&quot;:&quot;d1bcfe0d2e1ed1d55cd8bf4180d888407c69fe91&quot;}]}&amp;format=atom" type="rss" row="2000" col="1"/>
+   <outline type="SmartFilter" title="Today's articles from &quot;Tech &gt; Android (FR)&quot; tab" row="1000" col="2">
+    <outline title="Today's articles from &quot;Tech &gt; Android (FR)&quot; tab" searchQuery="{&quot;topic&quot;:&quot;*:*&quot;,&quot;context&quot;:{&quot;tab&quot;:[&quot;Tech &gt; Android (FR)&quot;]}}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="Today's articles from &quot;Tech &gt; Android (FR)&quot; tab" row="2000" col="2">
+    <outline title="Today's articles from &quot;Tech &gt; Android (FR)&quot; tab" searchQuery="{&quot;topic&quot;:&quot;*:*&quot;,&quot;context&quot;:{&quot;tab&quot;:[&quot;Tech &gt; Android (FR)&quot;]}}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="Android: Topic watch" row="3000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Android: Topic watch&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.library&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.library.{wid}.article.new&quot;,&quot;config&quot;:[]}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Android: Topic watch"/>
+   </outline>
+   <outline type="PotionWizard" title="Android: Topic watch" row="4000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Android: Topic watch&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.library&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.library.{wid}.article.new&quot;,&quot;config&quot;:[]}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Android: Topic watch"/>
+   </outline>
+   <outline type="Library" row="5000" col="2" title="Android" viewHeight="medium" libraryId="2316906419" libraryToken="57acc0c007a8a3590e2e59005f927a03e53c87ca"/>
+   <outline type="Library" row="6000" col="2" title="Android" viewHeight="medium" libraryId="2316907920" libraryToken="57acc0c007a8a3590e2e59005f927a03e53c87ca"/>
+   <outline title="Votre réflexe Android !" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;04cc4a1d-b242-11e6-b093-782bcb11773e&quot;,&quot;token&quot;:&quot;15b544e182a2029a4a0546628a54d148681ab5b6&quot;}]}&amp;format=atom" type="rss" row="1000" col="3"/>
+   <outline title="Android-Zone" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;eff91f3a-26ca-11e8-bc75-a0369fec958c&quot;,&quot;token&quot;:&quot;a368fb0efb805bf3e48b200b2d6d6d5b3f7b8516&quot;}]}&amp;format=atom" type="rss" row="2000" col="3"/>
+   <outline title="Flux Android Developpez" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;04cc4a17-b242-11e6-b093-782bcb11773e&quot;,&quot;token&quot;:&quot;b887091f121eb303cbeec08e46ab0ca1065980c2&quot;}]}&amp;format=atom" type="rss" row="3000" col="3"/>
+   <outline title="Flux Android Developpez" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f003c3e0-26ca-11e8-8a80-a0369fec958c&quot;,&quot;token&quot;:&quot;12f4d1cd7fcdd67f5ec235a58d2075f51c38e011&quot;}]}&amp;format=atom" type="rss" row="4000" col="3"/>
+   <outline title="PhonAndroid" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;04cc4a12-b242-11e6-b093-782bcb11773e&quot;,&quot;token&quot;:&quot;5307fafacd573e9b0c08222cdbdd9209ed3bc0ca&quot;}]}&amp;format=atom" type="rss" row="1000" col="4"/>
+   <outline title="PhonAndroid" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;eff51926-26ca-11e8-b41d-a0369fec958c&quot;,&quot;token&quot;:&quot;fda4c308def5abab51322eb2aa2c0fd7dedfd75a&quot;}]}&amp;format=atom" type="rss" row="2000" col="4"/>
+   <outline title="Android-Logiciels.fr" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;04cc4a20-b242-11e6-b093-782bcb11773e&quot;,&quot;token&quot;:&quot;43b4b75b54e6c7d482741a4e859a268072279a78&quot;}]}&amp;format=atom" type="rss" row="3000" col="4"/>
+   <outline title="Android-Logiciels.fr" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;69a14615-5fa5-11e6-a8e6-782bcb10e966&quot;,&quot;token&quot;:&quot;efc2023e19960442571da441a13e3a382418d8d1&quot;}]}&amp;format=atom" type="rss" row="4000" col="4"/>
+  </outline>
+  <outline title="Tech &gt; Windows (FR)" icon="rss" iconColor="grey" cols="4" layout="4-1">
+   <outline title="MonWindows" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f0099130-26ca-11e8-afd0-a0369fec958c&quot;,&quot;token&quot;:&quot;82e6005a7e33e01a15a3ec821d15cc93c69588fa&quot;}]}&amp;format=atom" type="rss" row="1000" col="1"/>
+   <outline title="WindowsGeneration.fr" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;6c49065c-e181-11e6-b3e2-782bcb11773e&quot;,&quot;token&quot;:&quot;c4e106019a8acfa815ed8908ac681ff8a28adae0&quot;}]}&amp;format=atom" type="rss" row="2000" col="1"/>
+   <outline type="SmartFilter" title="Today's articles from &quot;Tech &gt; Windows (FR)&quot; tab" row="1000" col="2">
+    <outline title="Today's articles from &quot;Tech &gt; Windows (FR)&quot; tab" searchQuery="{&quot;topic&quot;:&quot;*:*&quot;,&quot;context&quot;:{&quot;tab&quot;:[&quot;Tech &gt; Windows (FR)&quot;]}}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="Today's articles from &quot;Tech &gt; Windows (FR)&quot; tab" row="2000" col="2">
+    <outline title="Today's articles from &quot;Tech &gt; Windows (FR)&quot; tab" searchQuery="{&quot;topic&quot;:&quot;*:*&quot;,&quot;context&quot;:{&quot;tab&quot;:[&quot;Tech &gt; Windows (FR)&quot;]}}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="Windows: Topic watch" row="3000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Windows: Topic watch&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.library&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.library.{wid}.article.new&quot;,&quot;config&quot;:[]}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Windows: Topic watch"/>
+   </outline>
+   <outline type="PotionWizard" title="Windows: Topic watch" row="4000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Windows: Topic watch&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.library&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.library.{wid}.article.new&quot;,&quot;config&quot;:[]}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Windows: Topic watch"/>
+   </outline>
+   <outline type="Library" row="5000" col="2" title="Windows" viewHeight="medium" libraryId="2318029577" libraryToken="a5ef98f4c5b0ee0cf3a3eaccde03c0e4e15cb119"/>
+   <outline type="Library" row="6000" col="2" title="Windows" viewHeight="medium" libraryId="2318028729" libraryToken="a5ef98f4c5b0ee0cf3a3eaccde03c0e4e15cb119"/>
+   <outline title="Windows Fun!" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;6d358da6-e181-11e6-b3e2-782bcb11773e&quot;,&quot;token&quot;:&quot;0cb8bf7305b94a91026943f23532cd47ab2f8172&quot;}]}&amp;format=atom" type="rss" row="1000" col="3"/>
+   <outline title="PC Astuces : Astuces" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f015365c-26ca-11e8-a283-a0369fec958c&quot;,&quot;token&quot;:&quot;273a57f5d3bd9b205613e25f64bd6e0a30eb464c&quot;}]}&amp;format=atom" type="rss" row="2000" col="3"/>
+   <outline title="PC Astuces : Astuces" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;6c490657-e181-11e6-b3e2-782bcb11773e&quot;,&quot;token&quot;:&quot;11e5d55cc3355c674cde656d8fa2c32ad14a968d&quot;}]}&amp;format=atom" type="rss" row="3000" col="3"/>
+   <outline title="CanardPC.com" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;6d358da3-e181-11e6-b3e2-782bcb11773e&quot;,&quot;token&quot;:&quot;a5474137c3e06c205d45d19a098e8ba4935e9da4&quot;}]}&amp;format=atom" type="rss" row="4000" col="3"/>
+   <outline title="Flux Windows Developpez" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f00f12c2-26ca-11e8-9ddf-a0369fec958c&quot;,&quot;token&quot;:&quot;f963b04552a376e856ad19370aa119764a68db14&quot;}]}&amp;format=atom" type="rss" row="1000" col="4"/>
+   <outline title="MonWindows" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;6c490650-e181-11e6-b3e2-782bcb11773e&quot;,&quot;token&quot;:&quot;8e69a09378d780c08b88c3d951f0b43062f2cbd9&quot;}]}&amp;format=atom" type="rss" row="2000" col="4"/>
+   <outline title="Flux Windows Developpez" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;6c490659-e181-11e6-b3e2-782bcb11773e&quot;,&quot;token&quot;:&quot;e890a5d3be38115873a30fed3f0750bd185e675a&quot;}]}&amp;format=atom" type="rss" row="3000" col="4"/>
+   <outline title="CanardPC.com" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f018590e-26ca-11e8-a49c-a0369fec958c&quot;,&quot;token&quot;:&quot;d8c972ef4b8659830c9a9f821b178751736cb56b&quot;}]}&amp;format=atom" type="rss" row="4000" col="4"/>
+   <outline title="Actualités Zebulon.fr" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;6c490655-e181-11e6-b3e2-782bcb11773e&quot;,&quot;token&quot;:&quot;7a12fd0411206b48787ef38f8cbc44d967277775&quot;}]}&amp;format=atom" type="rss" row="5000" col="4"/>
+  </outline>
+  <outline title="Jeux vidéo &gt; Actualité (FR)" icon="rss" iconColor="grey" cols="4" layout="4-1">
+   <outline title="Gameblog" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f1110cfc-26ca-11e8-9fe2-a0369fec958c&quot;,&quot;token&quot;:&quot;9b055ef7ad57b5bed363ffc6e65e8a74a33fac67&quot;}]}&amp;format=atom" type="rss" row="1000" col="1"/>
+   <outline title="Journal du Geek" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;6b3c54ca-b22b-11e6-b093-782bcb11773e&quot;,&quot;token&quot;:&quot;c1f29e9697a0e8f8b55b6ce269004a2aeed60f7c&quot;}]}&amp;format=atom" type="rss" row="2000" col="1"/>
+   <outline type="SmartFilter" title="Today's articles from &quot;Jeux vidéo &gt; Actualité (FR)&quot; tab" row="1000" col="2">
+    <outline title="Today's articles from &quot;Jeux vidéo &gt; Actualité (FR)&quot; tab" searchQuery="{&quot;topic&quot;:&quot;*:*&quot;,&quot;context&quot;:{&quot;tab&quot;:[&quot;Jeux vidéo &gt; Actualité (FR)&quot;]}}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="Today's articles from &quot;Jeux vidéo &gt; Actualité (FR)&quot; tab" row="2000" col="2">
+    <outline title="Today's articles from &quot;Jeux vidéo &gt; Actualité (FR)&quot; tab" searchQuery="{&quot;topic&quot;:&quot;*:*&quot;,&quot;context&quot;:{&quot;tab&quot;:[&quot;Jeux vidéo &gt; Actualité (FR)&quot;]}}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="Actualité: Topic watch" row="3000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Actualité: Topic watch&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.library&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.library.{wid}.article.new&quot;,&quot;config&quot;:[]}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Actualité: Topic watch"/>
+   </outline>
+   <outline type="PotionWizard" title="Actualité: Topic watch" row="4000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Actualité: Topic watch&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.library&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.library.{wid}.article.new&quot;,&quot;config&quot;:[]}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Actualité: Topic watch"/>
+   </outline>
+   <outline type="Library" row="5000" col="2" title="Actualité" viewHeight="medium" libraryId="2316907927" libraryToken="7834c95bdcadbf5ac6628edc64e9f134a269454e"/>
+   <outline type="Library" row="6000" col="2" title="Actualité" viewHeight="medium" libraryId="2316906586" libraryToken="7834c95bdcadbf5ac6628edc64e9f134a269454e"/>
+   <outline title="Joueur Du Grenier" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;198c7c6e-f437-11e6-bdf0-782bcb103767&quot;,&quot;token&quot;:&quot;8304feb4159e8a4cbd606766ef9193081c863a37&quot;}]}&amp;format=atom" type="rss" row="1000" col="3"/>
+   <outline title="Joueur Du Grenier" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f11688ee-26ca-11e8-bb1e-a0369fec958c&quot;,&quot;token&quot;:&quot;d5430187e63143b2e98c45872fc9266b6d3f92af&quot;}]}&amp;format=atom" type="rss" row="2000" col="3"/>
+   <outline title="Journal du Geek" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f11e6fdc-26ca-11e8-8ba8-a0369fec958c&quot;,&quot;token&quot;:&quot;3f922314dee2d114ee5e25f5e9e0cf3d2a79134e&quot;}]}&amp;format=atom" type="rss" row="3000" col="3"/>
+   <outline title="Gameblog" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;198c7c70-f437-11e6-bdf0-782bcb103767&quot;,&quot;token&quot;:&quot;cde817b5e2be9c372bef6c35601883bbd98c8b7e&quot;}]}&amp;format=atom" type="rss" row="4000" col="3"/>
+   <outline title="Forum Geekzone - Sujets récents" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f12386f2-26ca-11e8-bbcb-a0369fec958c&quot;,&quot;token&quot;:&quot;02ab255632622026c09993a280c46b135bfe62ef&quot;}]}&amp;format=atom" type="rss" row="5000" col="3"/>
+   <outline title="Forum Geekzone - Sujets récents" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;198c7c72-f437-11e6-bdf0-782bcb103767&quot;,&quot;token&quot;:&quot;c4c9c3a9a1ea4850f33318da937ee1341bb405c7&quot;}]}&amp;format=atom" type="rss" row="6000" col="3"/>
+   <outline title="jeuxvideo.com - PC" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f113ecec-26ca-11e8-a033-a0369fec958c&quot;,&quot;token&quot;:&quot;0d21829b5ea3a86acb3ef2a7403857d9d0d7b6ce&quot;}]}&amp;format=atom" type="rss" row="1000" col="4"/>
+   <outline title="jeuxvideo.com - PC" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;198c7c6d-f437-11e6-bdf0-782bcb103767&quot;,&quot;token&quot;:&quot;5209d15d254e54adc6f68c621496848f5444f183&quot;}]}&amp;format=atom" type="rss" row="2000" col="4"/>
+   <outline title="Gamekyo.com : News" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;198c7c6f-f437-11e6-bdf0-782bcb103767&quot;,&quot;token&quot;:&quot;209f51775124a64d5361e768d4135a593c1661fc&quot;}]}&amp;format=atom" type="rss" row="3000" col="4"/>
+   <outline title="Gamekyo.com : News" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f11952ea-26ca-11e8-bcee-a0369fec958c&quot;,&quot;token&quot;:&quot;09c8fc014873f4627cc11015662e360ff19beee4&quot;}]}&amp;format=atom" type="rss" row="4000" col="4"/>
+   <outline title="Gamekult - Jeux vidéo PC et consoles: tout l'univers des joueurs" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f120cc5a-26ca-11e8-8ea3-a0369fec958c&quot;,&quot;token&quot;:&quot;9dd6d662a0beb4de880be6539005fdd2c2383421&quot;}]}&amp;format=atom" type="rss" row="5000" col="4"/>
+   <outline title="Gamekult - Jeux vidéo PC et consoles: tout l'univers des joueurs" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;198c7c71-f437-11e6-bdf0-782bcb103767&quot;,&quot;token&quot;:&quot;370cf17c25edd043d0d1ddd62c00d442162397c5&quot;}]}&amp;format=atom" type="rss" row="6000" col="4"/>
+  </outline>
+  <outline title="Art-Culture &gt; Cinéma (FR)" icon="rss" iconColor="grey" cols="4" layout="4-1">
+   <outline title="WE LOVE CINEMA" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f1bbb378-26ca-11e8-98c0-a0369fec958c&quot;,&quot;token&quot;:&quot;09d18bddf9044f9a03f62d8c27be429160b123c5&quot;}]}&amp;format=atom" type="rss" row="1000" col="1"/>
+   <outline title="WE LOVE CINEMA" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;5eb55046-f437-11e6-9123-842b2b5a33d6&quot;,&quot;token&quot;:&quot;56fe1b8aa84b8f55eb15b67d4a55f34d6f3c6da7&quot;}]}&amp;format=atom" type="rss" row="2000" col="1"/>
+   <outline type="SmartFilter" title="Today's articles from &quot;Art-Culture &gt; Cinéma (FR)&quot; tab" row="1000" col="2">
+    <outline title="Today's articles from &quot;Art-Culture &gt; Cinéma (FR)&quot; tab" searchQuery="{&quot;topic&quot;:&quot;*:*&quot;,&quot;context&quot;:{&quot;tab&quot;:[&quot;Art-Culture &gt; Cinéma (FR)&quot;]}}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="Today's articles from &quot;Art-Culture &gt; Cinéma (FR)&quot; tab" row="2000" col="2">
+    <outline title="Today's articles from &quot;Art-Culture &gt; Cinéma (FR)&quot; tab" searchQuery="{&quot;topic&quot;:&quot;*:*&quot;,&quot;context&quot;:{&quot;tab&quot;:[&quot;Art-Culture &gt; Cinéma (FR)&quot;]}}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="Cinéma: Topic watch" row="3000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Cinéma: Topic watch&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.library&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.library.{wid}.article.new&quot;,&quot;config&quot;:[]}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Cinéma: Topic watch"/>
+   </outline>
+   <outline type="PotionWizard" title="Cinéma: Topic watch" row="4000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;Cinéma: Topic watch&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.library&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.library.{wid}.article.new&quot;,&quot;config&quot;:[]}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="Cinéma: Topic watch"/>
+   </outline>
+   <outline type="Library" row="5000" col="2" title="Cinéma" viewHeight="medium" libraryId="2317052232" libraryToken="d3a9fc5c50f78a000148400f248669e7136f7001"/>
+   <outline type="Library" row="6000" col="2" title="Cinéma" viewHeight="medium" libraryId="2317052217" libraryToken="d3a9fc5c50f78a000148400f248669e7136f7001"/>
+   <outline title="Toute l'actualité Ciné" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;5eb55048-f437-11e6-9123-842b2b5a33d6&quot;,&quot;token&quot;:&quot;ce491309ae8497eec1e6c20aac8ebc29adcf3064&quot;}]}&amp;format=atom" type="rss" row="1000" col="3"/>
+   <outline title="Toute l'actualité Ciné" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f1c32cf2-26ca-11e8-a284-a0369fec958c&quot;,&quot;token&quot;:&quot;a2e2d2f4ef9e45d7aa3ee04c5639f1362d24d5dc&quot;}]}&amp;format=atom" type="rss" row="2000" col="3"/>
+   <outline title="Daily mars" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f1cc1c7c-26ca-11e8-9b0d-a0369fec958c&quot;,&quot;token&quot;:&quot;f4bdd162860af037257244f32a7e27ffd223a7a8&quot;}]}&amp;format=atom" type="rss" row="3000" col="3"/>
+   <outline title="Daily mars" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;5eb5504a-f437-11e6-9123-842b2b5a33d6&quot;,&quot;token&quot;:&quot;45af35a796f661aef6b6f0b843dc872d16cd11d4&quot;}]}&amp;format=atom" type="rss" row="4000" col="3"/>
+   <outline title="Le Blog Du Cinéma" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f1e06e70-26ca-11e8-bb92-a0369fec958c&quot;,&quot;token&quot;:&quot;a42e4b0b6bb0505da83672d1fe008ca533d6b13e&quot;}]}&amp;format=atom" type="rss" row="5000" col="3"/>
+   <outline title="Le Blog Du Cinéma" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;5eb5504c-f437-11e6-9123-842b2b5a33d6&quot;,&quot;token&quot;:&quot;c24b86453e94ac74f9b7b48307fe91713a48c9cb&quot;}]}&amp;format=atom" type="rss" row="6000" col="3"/>
+   <outline title="CINEBLOGYWOOD" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f1bf253a-26ca-11e8-9115-a0369fec958c&quot;,&quot;token&quot;:&quot;a362d6702ad9ecfe8331a9ee00e591ef6ff857eb&quot;}]}&amp;format=atom" type="rss" row="1000" col="4"/>
+   <outline title="CINEBLOGYWOOD" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;5eb55047-f437-11e6-9123-842b2b5a33d6&quot;,&quot;token&quot;:&quot;b68fb4523b53325f8a70b4481fdd4f19c7bde200&quot;}]}&amp;format=atom" type="rss" row="2000" col="4"/>
+   <outline title="EcranLarge.com" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;5eb55049-f437-11e6-9123-842b2b5a33d6&quot;,&quot;token&quot;:&quot;565d531d7b7afab2dcab229d24bbdbdd5f3feba9&quot;}]}&amp;format=atom" type="rss" row="3000" col="4"/>
+   <outline title="EcranLarge.com" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f1c752aa-26ca-11e8-999a-a0369fec958c&quot;,&quot;token&quot;:&quot;1c022d814c123763fa97e6b8c74d58f359ae7726&quot;}]}&amp;format=atom" type="rss" row="4000" col="4"/>
+   <outline title="Toute l'actualité FilmsActu FilmsActu.com" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;f1dc56e6-26ca-11e8-a241-a0369fec958c&quot;,&quot;token&quot;:&quot;6305bb97398c6b4d8ead10b3617f585bc3368dc7&quot;}]}&amp;format=atom" type="rss" row="5000" col="4"/>
+   <outline title="Toute l'actualité FilmsActu FilmsActu.com" xmlUrl="https://api.netvibes.com/searches/?actions={&quot;searches&quot;:[{&quot;id&quot;:&quot;5eb5504b-f437-11e6-9123-842b2b5a33d6&quot;,&quot;token&quot;:&quot;71adbc214ff256095a75f22d9f7f75d0a10d80a3&quot;}]}&amp;format=atom" type="rss" row="6000" col="4"/>
+  </outline>
+  <outline title="Interest: &quot;Google&quot;" icon="star" iconColor="green" cols="4" layout="4-1">
+   <outline type="SmartFilter" title="All &quot;Google&quot; articles" row="2000" col="1">
+    <outline title="All &quot;Google&quot; articles" searchQuery="{&quot;topic&quot;:&quot;Google&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="New article" row="7000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;New article&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.stream&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.stream.{uuid}.article.new&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;content&quot;:[&quot;Google&quot;],&quot;hasImages&quot;:true},&quot;formula&quot;:&quot;content contains \&quot;Google\&quot; and type of enclosures contains 'image')&quot;}}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="New article"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;Google&quot; articles from Press &amp; Media" row="1000" col="3">
+    <outline title="&quot;Google&quot; articles from Press &amp; Media" searchQuery="{&quot;topic&quot;:&quot;Google AND media:\&quot;press and media\&quot;&quot;}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;Google&quot; images" row="1000" col="4">
+    <outline title="&quot;Google&quot; images" searchQuery="{&quot;topic&quot;:&quot;Google AND image:\&quot;true\&quot;&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+  </outline>
+  <outline title="Interest: &quot;Twitter&quot;" icon="star" iconColor="green" cols="4" layout="4-1">
+   <outline type="SmartFilter" title="All &quot;Twitter&quot; articles" row="2000" col="1">
+    <outline title="All &quot;Twitter&quot; articles" searchQuery="{&quot;topic&quot;:&quot;Twitter&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="New article" row="7000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;New article&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.stream&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.stream.{uuid}.article.new&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;content&quot;:[&quot;Twitter&quot;],&quot;hasImages&quot;:true},&quot;formula&quot;:&quot;content contains \&quot;Twitter\&quot; and type of enclosures contains 'image')&quot;}}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="New article"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;Twitter&quot; articles from Press &amp; Media" row="1000" col="3">
+    <outline title="&quot;Twitter&quot; articles from Press &amp; Media" searchQuery="{&quot;topic&quot;:&quot;Twitter AND media:\&quot;press and media\&quot;&quot;}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;Twitter&quot; images" row="1000" col="4">
+    <outline title="&quot;Twitter&quot; images" searchQuery="{&quot;topic&quot;:&quot;Twitter AND image:\&quot;true\&quot;&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+  </outline>
+  <outline title="Interest: &quot;News jeu&quot;" icon="star" iconColor="green" cols="4" layout="4-1">
+   <outline type="SmartFilter" title="All &quot;News jeu&quot; articles" row="2000" col="1">
+    <outline title="All &quot;News jeu&quot; articles" searchQuery="{&quot;topic&quot;:&quot;News jeu&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="New article" row="7000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;New article&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.stream&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.stream.{uuid}.article.new&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;content&quot;:[&quot;News jeu&quot;],&quot;hasImages&quot;:true},&quot;formula&quot;:&quot;content contains \&quot;News jeu\&quot; and type of enclosures contains 'image')&quot;}}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="New article"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;News jeu&quot; articles from Press &amp; Media" row="1000" col="3">
+    <outline title="&quot;News jeu&quot; articles from Press &amp; Media" searchQuery="{&quot;topic&quot;:&quot;News jeu AND media:\&quot;press and media\&quot;&quot;}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;News jeu&quot; images" row="1000" col="4">
+    <outline title="&quot;News jeu&quot; images" searchQuery="{&quot;topic&quot;:&quot;News jeu AND image:\&quot;true\&quot;&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+  </outline>
+  <outline title="Interest: &quot;Nintendo&quot;" icon="star" iconColor="green" cols="4" layout="4-1">
+   <outline type="SmartFilter" title="All &quot;Nintendo&quot; articles" row="2000" col="1">
+    <outline title="All &quot;Nintendo&quot; articles" searchQuery="{&quot;topic&quot;:&quot;Nintendo&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="New article" row="7000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;New article&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.stream&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.stream.{uuid}.article.new&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;content&quot;:[&quot;Nintendo&quot;],&quot;hasImages&quot;:true},&quot;formula&quot;:&quot;content contains \&quot;Nintendo\&quot; and type of enclosures contains 'image')&quot;}}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="New article"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;Nintendo&quot; articles from Press &amp; Media" row="1000" col="3">
+    <outline title="&quot;Nintendo&quot; articles from Press &amp; Media" searchQuery="{&quot;topic&quot;:&quot;Nintendo AND media:\&quot;press and media\&quot;&quot;}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;Nintendo&quot; images" row="1000" col="4">
+    <outline title="&quot;Nintendo&quot; images" searchQuery="{&quot;topic&quot;:&quot;Nintendo AND image:\&quot;true\&quot;&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+  </outline>
+  <outline title="Interest: &quot;Game Awards 2018&quot;" icon="star" iconColor="green" cols="4" layout="4-1">
+   <outline type="SmartFilter" title="All &quot;Game Awards 2018&quot; articles" row="2000" col="1">
+    <outline title="All &quot;Game Awards 2018&quot; articles" searchQuery="{&quot;topic&quot;:&quot;Game Awards 2018&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="New article" row="7000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;New article&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.stream&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.stream.{uuid}.article.new&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;content&quot;:[&quot;Game Awards 2018&quot;],&quot;hasImages&quot;:true},&quot;formula&quot;:&quot;content contains \&quot;Game Awards 2018\&quot; and type of enclosures contains 'image')&quot;}}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="New article"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;Game Awards 2018&quot; articles from Press &amp; Media" row="1000" col="3">
+    <outline title="&quot;Game Awards 2018&quot; articles from Press &amp; Media" searchQuery="{&quot;topic&quot;:&quot;Game Awards 2018 AND media:\&quot;press and media\&quot;&quot;}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;Game Awards 2018&quot; images" row="1000" col="4">
+    <outline title="&quot;Game Awards 2018&quot; images" searchQuery="{&quot;topic&quot;:&quot;Game Awards 2018 AND image:\&quot;true\&quot;&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+  </outline>
+  <outline title="Interest: &quot;M. Night Shyamalan&quot;" icon="star" iconColor="green" cols="4" layout="4-1">
+   <outline type="SmartFilter" title="All &quot;M. Night Shyamalan&quot; articles" row="2000" col="1">
+    <outline title="All &quot;M. Night Shyamalan&quot; articles" searchQuery="{&quot;topic&quot;:&quot;M. Night Shyamalan&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="New article" row="7000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;New article&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.stream&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.stream.{uuid}.article.new&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;content&quot;:[&quot;M. Night Shyamalan&quot;],&quot;hasImages&quot;:true},&quot;formula&quot;:&quot;content contains \&quot;M. Night Shyamalan\&quot; and type of enclosures contains 'image')&quot;}}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="New article"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;M. Night Shyamalan&quot; articles from Press &amp; Media" row="1000" col="3">
+    <outline title="&quot;M. Night Shyamalan&quot; articles from Press &amp; Media" searchQuery="{&quot;topic&quot;:&quot;M. Night Shyamalan AND media:\&quot;press and media\&quot;&quot;}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;M. Night Shyamalan&quot; images" row="1000" col="4">
+    <outline title="&quot;M. Night Shyamalan&quot; images" searchQuery="{&quot;topic&quot;:&quot;M. Night Shyamalan AND image:\&quot;true\&quot;&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+  </outline>
+  <outline title="Interest: &quot;Elon Musk&quot;" icon="star" iconColor="green" cols="4" layout="4-1">
+   <outline type="SmartFilter" title="All &quot;Elon Musk&quot; articles" row="2000" col="1">
+    <outline title="All &quot;Elon Musk&quot; articles" searchQuery="{&quot;topic&quot;:&quot;Elon Musk&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="PotionWizard" title="New article" row="7000" col="2">
+    <outline collapsedLegend="true" preconfigData="{&quot;title&quot;:&quot;New article&quot;,&quot;triggers&quot;:[{&quot;ingredient&quot;:&quot;com.netvibes.stream&quot;,&quot;reference&quot;:&quot;new_article&quot;,&quot;name&quot;:&quot;com.netvibes.dashboard.{id}.stream.{uuid}.article.new&quot;,&quot;config&quot;:{&quot;formulaHelpers&quot;:{&quot;content&quot;:[&quot;Elon Musk&quot;],&quot;hasImages&quot;:true},&quot;formula&quot;:&quot;content contains \&quot;Elon Musk\&quot; and type of enclosures contains 'image')&quot;}}],&quot;actions&quot;:[{&quot;ingredient&quot;:&quot;mail&quot;,&quot;reference&quot;:&quot;mail&quot;,&quot;name&quot;:&quot;com.netvibes.mail&quot;,&quot;type&quot;:1,&quot;config&quot;:{&quot;general&quot;:[]}}],&quot;triggersLength&quot;:1,&quot;actionsLength&quot;:1,&quot;glue&quot;:2,&quot;formula&quot;:&quot;&quot;}" title="New article"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;Elon Musk&quot; articles from Press &amp; Media" row="1000" col="3">
+    <outline title="&quot;Elon Musk&quot; articles from Press &amp; Media" searchQuery="{&quot;topic&quot;:&quot;Elon Musk AND media:\&quot;press and media\&quot;&quot;}" searchToken="" view="" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+   <outline type="SmartFilter" title="&quot;Elon Musk&quot; images" row="1000" col="4">
+    <outline title="&quot;Elon Musk&quot; images" searchQuery="{&quot;topic&quot;:&quot;Elon Musk AND image:\&quot;true\&quot;&quot;}" searchToken="" view="mosaic" viewHeight="medium" color="" snapshot="[]"/>
+   </outline>
+  </outline>
+ </body>
+</opml>

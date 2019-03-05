@@ -1,0 +1,4 @@
+﻿ ID,Name,Duration,Start,Finish,Predecessors,Resources,Custom 1,Custom 2,Custom 3,Custom 4,Custom 5,
+1,Save Resume,1day,03/05/2019,03/05/2019,,,,,,,,
+2,Process and get Resume data,1day,03/05/2019,03/05/2019,,,https://github.com/samszo/OCI_18-19/issues/12,,,,,
+3,Generate CV in PDF Format,1day,03/06/2019,03/06/2019,,,,,,,,

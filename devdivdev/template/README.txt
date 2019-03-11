@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/astronaomical/pen/KexYgb.
-
- 
+Preview: https://majid.space/resume/index.html

@@ -19,7 +19,7 @@
 <script type="text/javascript" src="js/jquery.colorbox.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 <script type="text/javascript">
-		Cufon.replace('h1,h2');
+		//Cufon.replace('h1,h2');
 </script>
 </head>
 <body>
@@ -37,8 +37,8 @@
           <!-- End Image -->
           <!-- Begin Personal Information -->
           <div class="self">
-            <h1 class="name">John Smith <br />
-              <span>Interactive Designer</span></h1>
+            <h1 class="name" id='etuNom'>John Smith <br />
+              <span id='etuMetiers'>Interactive Designer</span></h1>
             <ul>
               <li class="ad">111 Lorem Street, 34785, Ipsum City</li>
               <li class="mail">johnsmith@business.com</li>
@@ -120,9 +120,9 @@
               <li>Maya</li>
             </ul>
           </div>
-          <div class="content">
-            <h3>Languages</h3>
-            <ul class="skills">
+          <div id='etuLangues' class="content">
+            <h3 >Languages</h3>
+            <ul id='etuLanguesUL' class="skills">
               <li>CSS/XHTML</li>
               <li>PHP</li>
               <li>JavaScript</li>
@@ -158,5 +158,36 @@
 </div>
 <div id="message"><a href="#top" id="top-link">Go to Top</a></div>
 <!-- End Wrapper -->
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+var url_string = window.location.href;
+var url_param = new URL(url_string);
+var idEtu = url_param.searchParams.get('id');
+
+var url ='https://docs.google.com/spreadsheets/d/e/2PACX-1vT1TjPfmIG9xdsgsVAUVIt9awGEl_h55EXssheQzUO6Do8S_diiax5BD9YH5BvQ6Bfkxv8jb6abpBwE/pub?gid=499782806&single=true&output=csv';
+d3.csv(url, function(data) {
+  console.log(data);
+  var dtEtu = data[idEtu];
+  d3.select('#etuNom').html(dtEtu['Prénom ']+' '+dtEtu['Nom ']);
+
+  d3.select('#etuLanguesUL').remove();
+  var ulSkill = d3.select('#etuLangues').append('ul')
+    .attr('id','etuLanguesUL')
+    .attr('class','skills');
+  ulSkill.selectAll('li').data(dtEtu['Langues [Ligne 1]'].split(','))
+    .enter().append('li')
+    .html(function(d){
+      return d;
+    })
+
+
+
+});
+//console.log(data);
+
+
+</script>
+
 </body>
 </html>

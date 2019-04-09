@@ -28,7 +28,10 @@ const data = [
         '3rd Year : To': '2015-05-31',
         'Skills set 1': 'C, JAVA, Python, PHP, html',
         'Skills set 2': 'Pack office, pack google, github, netvibes',
-        'Skills set 3': 'Recherches google, notes, rapports'
+        'Skills set 3': 'Recherches google, notes, rapports',
+        FIELD30: 'Programmation ',
+        FIELD31: 'Autonomie',
+        FIELD32: 'Gestion de projet'
     },
     {
         Horodateur: '2019/03/03 7:52:29 PM UTC+2',
@@ -59,7 +62,10 @@ const data = [
         '3rd Year : To': '',
         'Skills set 1': '',
         'Skills set 2': '',
-        'Skills set 3': ''
+        'Skills set 3': '',
+        FIELD30: '',
+        FIELD31: '',
+        FIELD32: ''
     },
     {
         Horodateur: '2019/03/03 7:55:46 PM UTC+2',
@@ -90,7 +96,10 @@ const data = [
         '3rd Year : To': '',
         'Skills set 1': 'C/C#/C++',
         'Skills set 2': 'Java',
-        'Skills set 3': 'Android/IOS'
+        'Skills set 3': 'Android/IOS',
+        FIELD30: '',
+        FIELD31: '',
+        FIELD32: ''
     },
     {
         Horodateur: '2019/03/05 11:13:37 AM UTC+2',
@@ -122,54 +131,9 @@ const data = [
         'Skills set 1': '',
         'Skills set 2':
             'LKLKJLJK\n\nSDSDSDF\nFSDFSDF\nSDFSDF\nSDFSDFSDZERZEA\nZEERZ\n',
-        'Skills set 3': 'ZER'
+        'Skills set 3': 'ZER',
+        FIELD30: '',
+        FIELD31: '',
+        FIELD32: ''
     }
 ];
-
-var url_string = window.location.href;
-var url_param = new URL(url_string);
-var idEtu = url_param.searchParams.get('id');
-
-var arrVal = {
-    'pas bon': 50,
-    'trop fort': 60,
-    mauvais: 5,
-    génie: 100,
-    médiocre: 10,
-    'connais pas': 0
-};
-
-const work = d3.select('.work ul');
-let experiences = [[], [], []];
-let year = 1;
-let i = 0;
-for (let experience in data[idEtu]) {
-    if (experience.includes(' Year : ')) {
-        const index = parseInt(i / 3);
-        experiences.push(experience);
-        // experiences[index].push(experience);
-        i++;
-    }
-}
-let li = work
-    .selectAll('li')
-    .data(experiences)
-    .enter()
-    .append('li')
-    .html(d => {
-        // experiences;
-        if (d.includes('Description')) {
-            let value = `<span>${data[idEtu][d]}</span>`;
-            return value;
-        }
-        return ``;
-    });
-
-console.log(data);
-const name = d3
-    .select('.name')
-    .html(`${data[idEtu]['First name']} ${data[idEtu]['Last name']}`);
-const phone = d3.select('.call span').html(`${data[idEtu]['Phone Number']}`);
-const email = d3
-    .select('.email span')
-    .html(`${data[idEtu]["Nom d'utilisateur"]}`);

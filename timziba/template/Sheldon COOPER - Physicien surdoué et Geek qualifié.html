@@ -74,7 +74,7 @@ Duis ut erat neque, eget consectetur tellus. </p>
 			<div class="grid_8 competences">
 				<h3>Compétences</h3>
 				<ul class="barres">
-					<li data-skills="80">Compétences 1<span style="width: 80%;"></span></li>
+					<li id="langage">Compétences 1</li>
 					<li data-skills="60">Compétences 2<span style="width: 60%;"></span></li>
 					<li data-skills="75">Compétences 3<span style="width: 75%;"></span></li>
 					<li data-skills="40">Compétences 4<span style="width: 40%;"></span></li>
@@ -119,15 +119,21 @@ nature de votre travail.</p>-->
 				<h3>Formations</h3>
 				<ul>
 					<li>
-						<h4><strong id="libform1">Nom de la formation / diplôme</strong> <h1 id="lieuform1">Lieu</h1> </h4>
-			
+						<h4><strong id="libform1">Nom de la formation / diplôme</strong> </h4>
+						<span class="lieu"><h1 id="lieuform1">Lieu</h1></span>
 						<span class="dates" id="dateform1">Période</span>
 						<!--<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>-->
 					</li>
 					<li>
-						<h4><strong id="libform2">Nom de la formation / diplôme</strong> à nom de l'école</h4>
+						<h4><strong id="libform2">Nom de la formation / diplôme</strong></h4>
 						<span class="lieu"><h1 id="lieuform2">Lieu</h1></span>
 						<span class="dates" id="dateform2">Période</span>
+						<!--<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>-->
+					</li>
+                    <li>
+						<h4><strong id="libform3">Nom de la formation / diplôme</strong></h4>
+						<span class="lieu"><h1 id="lieuform3">Lieu</h1></span>
+						<span class="dates" id="dateform3">Période</span>
 						<!--<p>Clarifiez la formation (les abréviations ne sont pas connues de tout le monde).</p>-->
 					</li>
 				</ul>
@@ -146,12 +152,12 @@ nature de votre travail.</p>-->
 				<h3>Contact</h3>
 				<p>Si mon profil vous intéresse, n'hésitez pas à me contacter :</p>
 				<ul>
-					<li class="lieu">Paris, France</li>
-					<li class="phone">06 00 00 00 00</li>
-					<li class="mail"><a href="mailto:mon.adresse@email.fr">mon.adresse@email.fr</a></li>
-					<li class="site"><a href="http://www.mon-site.fr/">www.mon-site.fr</a></li>
+					<li class="lieu" id="adEtu">Paris, France</li>
+					<li class="phone" id="civEtu">06 00 00 00 00</li>
+					<li class="mail" id="mailEtu"><a href="mailto:mon.adresse@email.fr">mon.adresse@email.fr</a></li>
+					<!--<li class="site"><a href="http://www.mon-site.fr/">www.mon-site.fr</a></li>
 					<li class="form"><a class="toContactform">via le formulaire de contact</a></li>
-                    <li class="form"><a class="toContactform">via le formulaire de contact</a></li>
+                    <li class="form"><a class="toContactform">via le formulaire de contact</a></li>-->
 				</ul>
 			</div>
 	</section>
@@ -170,9 +176,9 @@ nature de votre travail.</p>-->
 var url_string = window.location.href;
 var url_param = new URL(url_string);
 var idEtu = url_param.searchParams.get('id');
-var url ='https://docs.google.com/spreadsheets/d/e/2PACX-1vQGIguG_g8JXtDVpeOOYzKA5vEtczUfJvxFUX3BaZVA3YGiObh3uqKtXa65r2Mrd_5tDKf9pEiKIrym/pub?output=csv'
+var url ='https://docs.google.com/spreadsheets/d/e/2PACX-1vQGIguG_g8JXtDVpeOOYzKA5vEtczUfJvxFUX3BaZVA3YGiObh3uqKtXa65r2Mrd_5tDKf9pEiKIrym/pub?output=csv';
 var url1="data.csv";
-d3.csv(url1 , function(data){
+d3.csv(url , function(data){
 	console.log(data);
 	var numE = data[idEtu];
 	console.log(idEtu);
@@ -181,13 +187,17 @@ d3.csv(url1 , function(data){
 	d3.select("#mailEtu").html(numE['AdresseMail']);
 	d3.select("#civEtu").html(numE['Civilité']);
 	
-	d3.select("#dateform1").html(numE['Date début Formation 1']+' - '+numE['Date Fin Formation 1']);
+	d3.select("#dateform1").html(numE['Date début Formation 1'] +' - '+numE['Date Fin Formation 1']);
 	d3.select("#lieuform1").html(numE['Lieu Formation 1']);
-	d3.select("#libform1").html(numE['Libellé Formation 1']+'  '+numE['Lieu Formation 1']);
+	d3.select("#libform1").html(numE['Libellé Formation 1']);
 	
 	d3.select("#dateform2").html(numE['Date début Formation 2'] +' - '+numE['Date Fin Formation 2']);
-	//d3.select("#lieuform2").html(numE['Lieu Formation 2']);
-	d3.select("#libform2").html(numE['Libellé Formation 2']+'  '+numE['Lieu Formation 2']);
+	d3.select("#lieuform2").html(numE['Lieu Formation 2']);
+	d3.select("#libform2").html(numE['Libellé Formation 2']);
+	
+	d3.select("#dateform3").html(numE['Date début Formation 3'] +' - '+numE['Date Fin Formation 3']);
+	d3.select("#lieuform3").html(numE['Lieu Formation 3']);
+	d3.select("#libform3").html(numE['Libellé Formation 3']);
 	
 	d3.select("#datexp1").html(numE['Date début Expérience 1']+' - '+numE['Date Fin Expérience 1']);
 	d3.select("#lieuexp1").html(numE['Entreprise Expérience 1']);
@@ -200,6 +210,10 @@ d3.csv(url1 , function(data){
 	d3.select("#datexp3").html(numE['Date début Expérience 3']+' - '+numE['Date Fin Expérience 3']);
 	d3.select("#lieuexp3").html(numE['Entreprise Expérience 3']);
 	d3.select("#postexp3").html(numE['Poste Occupé Expérience 3']);
+	
+	d3.select("#langage").html(numE['Langage de Programmation'].sizeToContent());
+	
+
 	
 });
 </script>
